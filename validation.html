@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form validations</title>
+	<script type="text/javascript">
+		
+		function validate() {
+			var name = document.getElementById('name');
+			var password = document.getElementById('pass');
+			var email id = document.getElementsById('emailid');
+			var gender = document.getElementById('gender');
+			var address = document.getElementById('add');
+
+			if (name.value.trim() =="" ||password.value.trim()=="" ||email id.value.trim()=="" ||gender.value.trim()=="" ||address.value.trim()=="") 
+			{
+				alert("No blanks are allowed");
+				return false
+			}
+			else
+			{
+				true;
+			}
+		}
+	</script>
+</head>
+<body>
+	<form onsubmit="return validate()" action="message.html">
+		<input type="text"placeholder="name" id="name" required/><br><br>
+		<input type="text"placeholder="password" id="pass" required/><br><br>
+		<input type="text"placeholder="email id" id="emailid" required/><br><br>
+		<input type="text"placeholder="gender" id="gender" required/><br><br>
+		<input type="text"placeholder="address" id="add" required/><br><br>
+        <button type="submit">Submit</button>
+	</form>
+
+</body>
+</html>

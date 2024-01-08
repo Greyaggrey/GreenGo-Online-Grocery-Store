@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GREENGO ONLINE ORDERING SYSTEM</title>
+	<meta name="Author" CONTENT="">
+	<meta name="Author" CONTENT="">
+	<meta name="Author" CONTENT="">
+	<link rel="stylesheet" href="greengo.css">
+	<link rel="stylesheet" 
+	href="k:\fontawesome\fontawesome-free-5.13.0-web\fontawesome-free-5.13.0-web\css\all.min.css">
+	<script>
+		function stickyMenu() {
+	    var sticky=document.getElementById('sticky');
+	    if (window.pageYOffset > 220) {
+	    	sticky.classList.add('sticky');
+	    }
+	    else{
+	    	sticky.classList.remove('sticky');
+	    }
+}
+window.onscroll = function () {
+	stickyMenu();
+}
+	</script>
+</head>
+<body>
+     <div class="parallax">
+     	<div class="page-title">Green Go</div>
+     </div>
+     <div class="menu" id="sticky">
+     	<ul class="menu-ul">
+     		<a href="#" class="a-menu"><li>Home</li></a>
+     		<a href="#deals" class="a-menu"><li>Deals</li></a>
+     		<a href="#vegetables" class="a-menu"><li>Vegetables</li></a>
+     		<a href="#fruits" class="a-menu"><li>Fruits</li></a>
+     		<a href="#" class="a-menu"><li>Cart</li></a>
+     	</ul>
+     	<div class="search-box">
+     		<form>
+     			<input type="text" placeholder="Search..." name="search" class="search-input"/>
+     			<button type="submit"><i class="fa fa-search"></i></button>
+     		</form>
+     	</div>
+     </div>
+
+      <!--Home Page Begins -->
+
+     <div class="container">
+     	<a href="#vegetables">
+     		<div class="categories">
+     			<img src="010.jpg" class="item-image"/>
+     			<div class="image-title">Vegetables</div>
+
+     		</div>
+     	</a>
+     	<a href="#fruits">
+     		<div class="categories">
+     			<img src="011.jpg" class="item-image"/>
+     			<div class="image-title">Fruits</div>
+
+     		</div>
+     	</a>
+     	<a href="#deals">
+     		<div class="categories">
+     			<img src="012.png" class="item-image"/>
+     			<div class="image-title">Deals</div>
+
+     		</div>
+     	</a>
+     </div>
+     <!--Deal Begins Here-->
+     <div class="deals-container" id="deals">
+     	<div class="parallax">
+     		<div class="title">DEALS</div>
+     		<div class="deal">
+     			Save 20% on min-purchase of ksh600 on vegetables<br/>
+     			<button class="coupon-btn">Add Coupon</button>
+     		</div>
+     		<div class="deal">
+     			Save 10% on min-purchase of ksh650 on fruits<br/>
+     			<button class="coupon-btn">Add Coupon</button>
+     		</div>
+     	</div>
+     </div>
+     <!--Deal Ends Here-->
+     <!--veg Begins here-->
+     <div class="deals-container" id="vegetables">
+     	<div class="title">VEGETABLES</div>
+     	<div class="items">
+     		<div class="images">
+     			<img src="018.jpg" class="item-image-size">
+     		</div>
+     		<div class="description">
+     			<b>Cabbage</b><br/>
+     			<div class="item-select">
+     				Price : ksh 69.99/250grams
+     			</div>
+     			<label>Qty:</label>
+     			<select class="item-select">
+     				<option>250 grams</option>
+     				<option>500 grams</option>
+     				<option>750 grams</option>
+     				<option>1000 grams</option>
+     			</select><br/>
+     			<button class="buynow-btn">Buy Now</button>
+     		</div>
+     	</div>
+     	<div class="items">
+     		<div class="images">
+     			<img src="019.jpg" class="item-image-size">
+     		</div>
+     		<div class="description">
+     			<b>Tomatoes</b><br/>
+     			<div class="item-select">
+     				Price : ksh 29.99/250grams
+     			</div>
+     			<label>Qty:</label>
+     			<select class="item-select">
+     				<option>250 grams</option>
+     				<option>500 grams</option>
+     				<option>750 grams</option>
+     				<option>1000 grams</option>
+     			</select><br/>
+     			<button class="buynow-btn">Buy Now</button>
+     		</div>
+     	</div>
+     	<div class="items">
+     		<div class="images">
+     			<img src="020.jpg" class="item-image-size">
+     		</div>
+     		<div class="description">
+     			<b>Peppers</b><br/>
+     			<div class="item-select">
+     				Price : ksh 19.99/250grams
+     			</div>
+     			<label>Qty:</label>
+     			<select class="item-select">
+     				<option>250 grams</option>
+     				<option>500 grams</option>
+     				<option>750 grams</option>
+     				<option>1000 grams</option>
+     			</select><br/>
+     			<button class="buynow-btn">Buy Now</button>
+     		</div>
+     	</div>
+     	<div class="items">
+     		<div class="images">
+     			<img src="016.jpg" class="item-image-size">
+     		</div>
+     		<div class="description">
+     			<b>Cucumbers</b><br/>
+     			<div class="item-select">
+     				Price : ksh 24.99/250grams
+     			</div>
+     			<label>Qty:</label>
+     			<select class="item-select">
+     				<option>250 grams</option>
+     				<option>500 grams</option>
+     				<option>750 grams</option>
+     				<option>1000 grams</option>
+     			</select><br/>
+     			<button class="buynow-btn">Buy Now</button>
+     		</div>
+     	</div>
+     	<div class="items">
+     		<div class="images">
+     			<img src="015.jpg" class="item-image-size">
+     		</div>
+     		<div class="description">
+     			<b>Spinach</b><br/>
+     			<div class="item-select">
+     				Price : ksh 29.99/250grams
+     			</div>
+     			<label>Qty:</label>
+     			<select class="item-select">
+     				<option>250 grams</option>
+     				<option>500 grams</option>
+     				<option>750 grams</option>
+     				<option>1000 grams</option>
+     			</select><br/>
+     			<button class="buynow-btn">Buy Now</button>
+     		</div>
+     	</div>
+     </div>
+     <!--veg Ends here-->
+
+      <!--fruits Begins here-->
+     <div class="deals-container" id="fruits">
+     	<div class="title">Fruits</div>
+     	<div class="items">
+     		<div class="images">
+     			<img src="021.jpg" class="item-image-size">
+     		</div>
+     		<div class="description">
+     			<b>Bananas</b><br/>
+     			<div class="item-select">
+     				Price : ksh 9.99/250grams
+     			</div>
+     			<label>Qty:</label>
+     			<select class="item-select">
+     				<option>250 grams</option>
+     				<option>500 grams</option>
+     				<option>750 grams</option>
+     				<option>1000 grams</option>
+     			</select><br/>
+     			<button class="buynow-btn">Buy Now</button>
+     		</div>
+     	</div>
+     	<div class="items">
+     		<div class="images">
+     			<img src="022.jpg" class="item-image-size">
+     		</div>
+     		<div class="description">
+     			<b>Strawberries</b><br/>
+     			<div class="item-select">
+     				Price : ksh 49.99/250grams
+     			</div>
+     			<label>Qty:</label>
+     			<select class="item-select">
+     				<option>250 grams</option>
+     				<option>500 grams</option>
+     				<option>750 grams</option>
+     				<option>1000 grams</option>
+     			</select><br/>
+     			<button class="buynow-btn">Buy Now</button>
+     		</div>
+     	</div>
+     	<div class="items">
+     		<div class="images">
+     			<img src="023.jpg" class="item-image-size">
+     		</div>
+     		<div class="description">
+     			<b>Apples</b><br/>
+     			<div class="item-select">
+     				Price : ksh 59.99/250grams
+     			</div>
+     			<label>Qty:</label>
+     			<select class="item-select">
+     				<option>250 grams</option>
+     				<option>500 grams</option>
+     				<option>750 grams</option>
+     				<option>1000 grams</option>
+     			</select><br/>
+     			<button class="buynow-btn">Buy Now</button>
+     		</div>
+     	</div>
+     	<div class="items">
+     		<div class="images">
+     			<img src="024.jpg" class="item-image-size">
+     		</div>
+     		<div class="description">
+     			<b>lemons</b><br/>
+     			<div class="item-select">
+     				Price : ksh 24.99/250grams
+     			</div>
+     			<label>Qty:</label>
+     			<select class="item-select">
+     				<option>250 grams</option>
+     				<option>500 grams</option>
+     				<option>750 grams</option>
+     				<option>1000 grams</option>
+     			</select><br/>
+     			<button class="buynow-btn">Buy Now</button>
+     		</div>
+     	</div>
+     	<div class="items">
+     		<div class="images">
+     			<img src="025.jpg" class="item-image-size">
+     		</div>
+     		<div class="description">
+     			<b>Watermelons</b><br/>
+     			<div class="item-select">
+     				Price : ksh 29.99/250grams
+     			</div>
+     			<label>Qty:</label>
+     			<select class="item-select">
+     				<option>250 grams</option>
+     				<option>500 grams</option>
+     				<option>750 grams</option>
+     				<option>1000 grams</option>
+     			</select><br/>
+     			<button class="buynow-btn">Buy Now</button>
+     		</div>
+     	</div>
+     </div>
+     <!--fruits Ends here-->
+     <!--Home Page Ends-->
+     <!--footer starts here-->
+     <div class="parallaxl">
+     	<div class="footer">
+     		<div class="quick-links">
+     			<div>Locations</div>
+     			<ul>
+     				<li><a href="" class="a-links">Address 1</a></li>
+     				<li><a href="" class="a-links">Address 2</a></li>
+     				<li><a href="" class="a-links">Address 3</a></li>
+     			</ul>
+     		</div>
+     		<div class="quick-links">
+     			<div>Careers</div>
+     			<ul>
+     				<li><a href="" class="a-links">Packing staff</a></li>
+     				<li><a href="" class="a-links">Delivery Agents</a></li>
+     				<li><a href="" class="a-links">Shelf Fillers</a></li>
+     			</ul>
+     		</div>
+     		<div class="quick-links">
+     			<div>Quick Links</div>
+     			<ul>
+     				<li><a href="" class="a-links">Contact Us</a></li>
+     				<li><a href="" class="a-links">FAQ</a></li>
+     				<li><a href="" class="a-links">Help</a></li>
+     			</ul>
+     		</div>
+     	</div>
+     </div>
+     <div class="copyrights">
+     	<i class="far fa-copyright fa-lx"></i>By Aggrey Kigen
+     </div>
+     <!--footer ends here-->
+</body>
+</html>
